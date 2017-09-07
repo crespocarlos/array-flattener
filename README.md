@@ -5,11 +5,9 @@ Write a function that will flatten an array of arbitrarily nested arrays of inte
 
 ### Development
 
+clone this repo
+
 ```
-https://github.com/crespocarlos/array-flattener.git
-
-cd array-flattener
-
 npm install
 
 npm test
