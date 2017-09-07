@@ -2,15 +2,22 @@
   "name": "array-flattener",
   "version": "1.0.0",
   "description": "intercom test",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "export NODE_ENV=production && rm -rf dist/** && webpack -p --progress"
   },
-  "author": "",
+  "author": {
+    "name": "carlos crespo",
+    "email": "carlos.hcrespo@gmail.com",
+    "url": ""
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "webpack": "^3.5.6"
   }
 }
