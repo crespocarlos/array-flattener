@@ -17,7 +17,7 @@ npm test
 ### Usage
 
 ```
-import flatten from './array-flatter'
+import flatten from './array-flattener'
 
 flatten([[1,2,[3]],4])
 
